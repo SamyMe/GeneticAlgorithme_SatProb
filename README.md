@@ -1,5 +1,3 @@
-#NEED TO MAKE IT A CLASS!
-
 This is an application of the [genetic heuristic search algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) that mimics the process of natural selection.
 We applied it to the [Boolean Satisfiability problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem) (more precisely [max-sat](https://en.wikipedia.org/wiki/Maximum_satisfiability_problem)).
 
@@ -61,3 +59,13 @@ genetic(clauses,nbL,50,1000,0.2)
 - state:	An instentation of the literals (a solution)
 
 **fitness** *(population,clauses)* : 	returns the mean fitness value of a *population*.
+
+
+***
+
+###License:
+This is published under GNU GPL Lisence.
+For more informations about the terms: https://www.gnu.org/licenses/gpl.html
+
+![Image Alt](https://www.gnu.org/graphics/gplv3-127x51.png)
+
