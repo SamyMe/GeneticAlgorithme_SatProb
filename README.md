@@ -2,6 +2,7 @@ This is an application of the [genetic heuristic search algorithm](https://en.wi
 We applied it to the [Boolean Satisfiability problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem) (more precisely [max-sat](https://en.wikipedia.org/wiki/Maximum_satisfiability_problem)).
 
 The main steps behind genetic algorithmes are:
+
 1. Selection over fitness: the fittest have more chances of survival (represented in our case by cloning)
 2. Crossover: is a randomly happening between randomly selected population individuals
 3. Mutation: is a random change happening rarely (allows for deversification of the genes, to avoid stagnation)
